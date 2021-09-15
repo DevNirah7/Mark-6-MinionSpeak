@@ -1,0 +1,18 @@
+#output-div
+{
+    border: 1px black solid ;
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#txt-input
+{
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+}
