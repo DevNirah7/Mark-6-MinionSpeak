@@ -123,7 +123,7 @@ nav
 footer
 {
     font-family: 'Montserrat', sans-serif;;
-    text-align: justify;
+    text-align: left;
     font-size: 1rem;
     background-color: var(--brown);
     color: white;
@@ -139,11 +139,37 @@ footer
     margin-bottom: 1rem;
 }
 
+
 #footer-link
 {
     text-align: center;
+    margin-bottom: 2rem;
     display: block;
     text-decoration-style: dashed;
     color: var(--lightbrown);
 }
+
+.list-non-bullet
+{
+    list-style: none;
+}
+
+.list-item-inline
+{
+    display: inline;
+
+}
+
+.link
+{
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+}
+
+footer ul
+{
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
 
