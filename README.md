@@ -1,8 +1,8 @@
-# Mark6
+
 # Minion Speaks
 
 # About:
-An web application which converts text entered in English and converts it into the 'Minionese' language.
+A web application which converts text entered in English and converts it into the 'Minionese' language.
 
 ****
 ## Built with :
