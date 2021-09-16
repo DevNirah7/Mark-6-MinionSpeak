@@ -4,25 +4,26 @@
 body
 { 
     font-family: 'Caveat', cursive;
-    margin: 0rem;
+    margin: 0rem 
+
 }
 
 *
 {
-    margin: 0rem;
+    margin: 0rem 0rem;
 }
 
 :root
 {
-    --primary-color:#DA291C;
-    --dark-gray:#6B7280;
-    --off-red:#FEF2F2;
+   
     --yellow: #fee402;
+    --lightbrown: #a07501;
+    --brown: #483401;
 }
 
 h1
 {
-    font-size: 4rem;
+    font-size: 5rem;
    
 }
 
@@ -33,7 +34,25 @@ h2
 
 h3
 {
-    font-size: 1.3rem;
+    font-size: 1.75rem;
+}
+
+h4
+{
+    font-size: 1.2rem;
+
+}
+
+#nav-heading
+{
+    color: var(--brown);
+    margin-bottom: 0.1rem;
+}
+
+#nav-subheading
+{
+    margin-top: 0rem;
+    color: var(--lightbrown);
 }
 
 nav
@@ -48,45 +67,83 @@ nav
 {
     padding: 1rem;
     max-width: 600px;
+    text-align: center;
     margin: auto;
-}
-
-#output-div
-{
-    border: 1px black solid ;
-    font-family: 'Montserrat', sans-serif;;
-    width: 80%;
-    max-width: 600px;
-    height: 10vh;
-    display: block;
-    margin:auto;
-    padding: 1rem;
 }
 
 #txt-input
 {
     border: 1px black solid ;
-    font-family: 'Montserrat', sans-serif;;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
     width: 80%;
     max-width: 600px;
-    height: 10vh;
+    height: 20vh;
     display: block;
     margin:auto;
     padding: 1rem;
 }
 
+
 #btn-translate
 {
-    background-color: black;
-    border-radius: 0.75rem;
-    color: white;
-    margin: 1rem;
-    padding: 1rem;
+    background-color: var(--brown);
+    border: transparent;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;;
+    color:whitesmoke;
+    margin-top: 1 rem;
+    padding: 0.75rem 2rem;
     text-decoration: none;
 }
 
-#output-txt
+#output
 {
-    margin: 1rem;
     font-family: 'Montserrat', sans-serif;;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
 }
+
+#output-div
+{
+    border: 1px black solid ;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+    width: 80%;
+    max-width: 600px;
+    overflow: scroll;
+    height: 20vh;
+    display: block;
+    text-align:left;
+    margin:auto;
+    padding: 1rem;
+}
+
+footer
+{
+    font-family: 'Montserrat', sans-serif;;
+    text-align: justify;
+    font-size: 1rem;
+    background-color: var(--brown);
+    color: white;
+    padding: 2rem 4rem;
+}
+
+#footer-heading
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--yellow);
+    margin-bottom: 1rem;
+}
+
+#footer-link
+{
+    text-align: center;
+    display: block;
+    text-decoration-style: dashed;
+    color: var(--lightbrown);
+}
+
