@@ -67,9 +67,10 @@ nav
 
 #nav-subheading
 {
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0rem;
     color: var(--lightbrown);
-    font-family: 'Montserrat', sans-serif;
+    
 }
 
 
