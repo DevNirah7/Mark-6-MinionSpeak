@@ -46,12 +46,14 @@ h4
 nav
 {
   margin: 0rem;
-  padding: 0rem;
+  background-color: var(--yellow);
+  padding: 0.75rem;
+  text-align: center;
 }
 
 #nav-minion
 {
-    display: block;
+ 
     margin-left: auto;
     margin-right: auto;
 
@@ -60,22 +62,16 @@ nav
 #nav-heading
 {
     color: var(--brown);
-    margin-bottom: 0.1rem;
+    margin-bottom: 0rem;
 }
 
 #nav-subheading
 {
     margin-top: 0rem;
     color: var(--lightbrown);
+    font-family: 'Montserrat', sans-serif;
 }
 
-nav
-{
-
-    background-color: var(--yellow);
-    padding: 2rem;
-    text-align: center;
-}
 
 #main
 {
