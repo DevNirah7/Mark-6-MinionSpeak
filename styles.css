@@ -43,6 +43,14 @@ h4
 
 }
 
+#nav-minion
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 #nav-heading
 {
     color: var(--brown);
