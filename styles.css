@@ -43,6 +43,12 @@ h4
 
 }
 
+nav
+{
+  margin: 0rem;
+  padding: 0rem;
+}
+
 #nav-minion
 {
     display: block;
